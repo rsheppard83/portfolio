@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Roy Sheppard</title>
+    <meta name="description" content="Roy Sheppard, web developer. This is my portfolio site.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a8ebfd2585.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="main-container">
+        <div class="nav-wrapper">
+          <ul>
+            <li><a href="#s2">About</a></li>
+            <li><a href="#s3">Projects</a></li>
+            <li><a href="#s4">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="welcome-section">
+      <div class="main-container">
+        <div class="welcome-wrapper">
+          <div class="welcome-text">
+            <header>
+            <h1>Hi, I'm <span class="name">Roy Sheppard</span></h1>
+            <h2>&lsaquo;web developer&rsaquo;</h2>
+            </header>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="s2">
+      <div class="main-container">
+        <h3>A bit about me</h3>
+        <div class="about-wrapper">
+          <div class="about-text">
+            <div class="post-it">
+              <div class="red-pin" id="red-pin-top"></div>
+              <div class="red-pin" id="red-pin-bottom"></div>
+
+              <p>My name is Roy and I live in Watford, England with my wife and three children. I am a self-taught, front-end web developer. I have a passion for all things coding and I am constantly trying to learn new skills and develop existing ones. My goal is to keep learning and eventually become a full-stack developer.</p>
+            </div>
+          </div>
+          <div class="poleroid">
+            <div class="blue-pin" id="blue-pin-top"></div>
+            <div class="blue-pin" id="blue-pin-bottom"></div>
+            <img src="images/profile-pic.jpg" alt="Profile picture" id="profile-pic">
+            <div class="photo-text">
+              <p>#dev-life</p>
+            </div>
+          </div>
+        </div>
+        <h3>My skills</h3>
+        <div class="skills-wrapper">
+          <div class="skill" id="html">
+            <h4>HTML5</h4>
+          </div>
+
+          <div class="skill" id="css">
+            <h4>CSS3</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="s3">
+      <div class="main-container">
+        <h3>My work</h3>
+        <div class="project-wrapper" id="projects">
+          <div>
+            <div class="project-tile" id="tribute-site">
+              <a target="_blank" href="https://codepen.io/rsheppard83/full/GRZyWje"><img src="images/tribute-site.jpg" alt="Stan Lee tribute" class="preview-image"></a>
+              <div class="project-desc">
+                <h5>Stan Lee Tribute</h5>
+                <p>This was my first project. I had done some HTML and CSS before but grids were totally new to me.</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="project-tile" id="survey-site">
+              <a target="_blank" href="https://codepen.io/rsheppard83/full/oNxmPXe"><img src="images/survey-site.jpg" alt="Video game survey" class="preview-image"></a>
+              <div class="project-desc">
+                <h5>Video Game Survey</h5>
+                <p>For this project I got to learn and utilise different form elements. I also learnt some animation tricks for the site header.</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="project-tile" id="product-site">
+              <a target="_blank" href="https://codepen.io/rsheppard83/project/full/AQqWym"><img src="images/product-site.jpg" alt="Em's Sweet Creations" class="preview-image"></a>
+              <div class="project-desc">
+                <h5>Em's Sweet Creations</h5>
+                <p>This was a product landing page I designed for my wife's cake business. I learnt the fundamentals of how  to create a responsive navigation bar in this project.</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="project-tile" id="document-site">
+              <a target="_blank" href="https://codepen.io/rsheppard83/full/abZzZPW"><img src="images/document-site.jpg" alt="JavaScript technical documentation" class="preview-image"></a>
+              <div class="project-desc">
+                <h5>JavaScript Technical Documentation</h5>
+                <p>For this project I had to make a technical documention site. This helped me combine a number of the skills I had been learning so far as well as experimenting with a sticky navigation bar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="s4">
+      <div class="main-container">
+        <h3>Get in touch</h3>
+        <div class="contact-wrapper">
+          <div class="contact-form">
+            <form action="mailto:rsheppard83@gmail.com" method="post" enctype="text/plain">
+              <input class="form-item" type="text" name="name" placeholder="Full Name" required>
+              <input class="form-item" type="tel" name="phone" placeholder="Phone Number" required>
+              <input class="form-item" type="email" name="email" placeholder="Email Address" required>
+              <textarea class="form-item" placeholder="Your Message" name="message"></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          <div class="social-links">
+            <h4>Alternatively, you can reach me through the platforms below.</h4>
+            <div class="social">
+              <ul>
+                <li><a href="https://codepen.io/rsheppard83" target="_blank"><i class="fab fa-codepen"></i><span>CodePen</span></a></li>
+                <li><a  id="profile-link" target="_blank" href="https://www.freecodecamp.org/rsheppard"><i class="fab fa-free-code-camp"></i><span>Free Code Camp</span></a></li>
+                <li><a href="https://github.com/rsheppard83" target="_blank"><i class="fab fa-github"></i><span>GitHub</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
