@@ -204,7 +204,8 @@ ul {
   position: relative;
   margin: 25px;
   padding: 30px;
-  width: 480px;
+  min-width: 320px;
+  max-width: 480px;
 
   background: rgb(255,250,93);
   background: rgb(255,251,120);
@@ -342,7 +343,7 @@ ul {
 
 .contact-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 20px;
 }
 
